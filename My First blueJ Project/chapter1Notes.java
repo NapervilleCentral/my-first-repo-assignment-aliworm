@@ -41,7 +41,7 @@ public class chapter1Notes
         Integer number = new Integer(47);
         Double number2 = new Double(34.5);
         
-         String word = new String("Homer Simpson");
+        String word1 = new String("Homer Simpson");
         String word2 = new String("Homer Simpson");
         String word3 = new String("Bart Simpson");
         String name = new String("Mike");
@@ -49,8 +49,9 @@ public class chapter1Notes
 
 
 
-        System.out.printf("Name:  %s \t ID: %5d \n", name,id);
-        System.out.println( 'a' + 100 );
+        // System.out.printf("Name:  %s \t ID: %5d \n", name,id);
+        System.out.println( 'a' + 100 ); // A char an an integer are the same thing; 
+    
         System.out.println('a'   );
         System.out.println("A"+100  );
         
