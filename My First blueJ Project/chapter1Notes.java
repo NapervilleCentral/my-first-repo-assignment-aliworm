@@ -66,18 +66,52 @@ public class chapter1Notes
 
         int id = 590342;
         int id2 = 1923;
+        
+        /*
         System.out.printf("Name:  %-15s \t ID: %-7d \n", name,id);
         System.out.printf("Name:  %-15s \t ID: %-7d \n", name2,id2);
         System.out.println( 'a' + 100 ); // A char an an integer are the same thing; 
     
         System.out.println('a'   );
         System.out.println("A"+100  );
-        
+        */
         
         // Calculate: workMiles = work days * one-way-distance * 2
         // Calculate: milesTravelled = ending miles - beginning miles
         // Calculate: workFraction = workMiles / milesTravelled
         // Calculate: personalFraction = 1 - workFraction
+        /*
+         This a comment and
+         This is a commeht
+         */
+        // System.out.print("Enter a number: ");
+        // System.out.print("Enter 3 numbers: ");
+        // x = keyboard.nextInt();
+        // y = keyboard.nextInt();
+        // z = keyboard.nextInt();
+        // System.out.println(x + y + z);
         
+        // System.out.print("Enter 2 words: ");
+        // keyboard.nextLine();
+        // word = keyboard.nextLine();
+        // // word = keyboard.next();
+        // // word2 = keyboard.next();
+        // System.out.println(word);
+        
+        // x = 5; 
+        // // double conversionFactor= x / 9; //this is INTEGER division. "=" has the lowest precedence which is why double is assigned later than division"
+        // double conversionFactor= (double)x / 9.0; //adding a 0 is called a promotion;
+        // System.out.print(conversionFactor); //Putting "double" in parenthesis is called casting
+        // final int BASE = 32; 
+        // int cTemp = 30;
+        // double fTemp = cTemp + conversionFactor + BASE;
+        // System.out.println("Celcius Temp:" + cTemp);
+        // System.out.println("Fahrenheight equivalemt: " + fTemp);
+        
+        // System.out.print(word2);
+        // System.out.print(word2.substring(6));
+        // System.out.print(word2.length());
+        //System.out.print(word2.indexOf("s")); //returns the place of where the closest s is
+        System.out.print(word2.charAt(0));
     }
 }
