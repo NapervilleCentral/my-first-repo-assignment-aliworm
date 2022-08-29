@@ -112,6 +112,11 @@ public class chapter1Notes
         // System.out.print(word2.substring(6));
         // System.out.print(word2.length());
         //System.out.print(word2.indexOf("s")); //returns the place of where the closest s is
-        System.out.print(word2.charAt(0));
+        // System.out.print(word2.charAt(0));
+        
+        //Class name Object name  memory     constructor
+        Random        generator = new        Random();
+        x = generator.nextInt(100);
+        System.out.print("The random number is " +x);
     }
 }
