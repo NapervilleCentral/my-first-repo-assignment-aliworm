@@ -117,6 +117,25 @@ public class chapter1Notes
         //Class name Object name  memory     constructor
         Random        generator = new        Random();
         x = generator.nextInt(100);
-        System.out.print("The random number is " +x);
+        System.out.println("The random number is " +x);
+        //-50 to 50
+        x = x -50;
+        
+    
+        //0.00000000001-1
+        num = generator.nextDouble();
+        // multiply how many numbers + or - push your range
+        num = (int)(generator.nextDouble() *100 + 100);
+        System.out.println("The random number is " + num);
+        
+        //100-200
+        num = generator.nextDouble();
+        // multiply how many numbers + or - push your range
+        System.out.println("The random number is " + num);
+        
+        num = (int)(Math.random()*100);
+        // multiply how many numbers + or - push your range
+        System.out.println("The random number is " + num);
+        
     }
 }
