@@ -19,17 +19,17 @@ public class split_the_bill{
         Scanner keyboard  = new Scanner(System.in);
         
         System.out.print("Bill without tip: $");
-        int bill = keyboard.nextInt();
+        double bill = keyboard.nextDouble();
         System.out.print("People in the Party: ");
         int people = keyboard.nextInt();
         
         double cost_per_person = bill/ people;
         double tip_per_person = cost_per_person * 0.2;
         double bill_total = bill * 1.2;
-        System.out.println("Bill before tip:" + .format(bill));
-        System.out.println("Bill after tip:" + .format(bill_total));
-        System.out.println("Tip per person:" + .format(tip_per_person));
-        System.out.println("Total cost per person(includes tip):" + (cost_per_person + tip_per_person));
+        System.out.println("Bill before tip: $" + String.format("%.2f", bill));
+        System.out.println("Bill after tip: $" + String.format("%.2f", bill_total));
+        System.out.println("Tip per person: $" + String.format("%.2f",tip_per_person));
+        System.out.println("Total cost per person(includes tip): $" +  String.format( "%.2f", (cost_per_person + tip_per_person)));
         
         
     }
