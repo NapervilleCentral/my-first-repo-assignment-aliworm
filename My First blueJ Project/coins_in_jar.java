@@ -25,5 +25,7 @@ public class coins_in_jar
         System.out.print("Pennies: ");
         double pennies = keyboard.nextDouble();
         
+        
+        
     }
 }
