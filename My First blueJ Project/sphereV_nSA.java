@@ -21,7 +21,7 @@ public class sphereV_nSA
         double radius = keyboard.nextDouble();
         
         //calculates volume
-        volume = (Math.pow(radius, 3)) * (Math.PI)*(4/3)  ;
+        volume = (Math.pow(radius, 3)) * (Math.PI)*(4/(double)3)  ;
         //calculate SA
         surface_area = (Math.pow(radius, 2)) * (4) * Math.PI;
         
