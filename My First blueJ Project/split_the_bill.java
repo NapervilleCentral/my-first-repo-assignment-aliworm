@@ -12,6 +12,7 @@ public class split_the_bill{
         Scanner keyboard  = new Scanner(System.in);
         NumberFormat money = NumberFormat.getCurrencyInstance();
         //gets information from user
+        
         System.out.print("Thank you for dining at McDavid's! Please enter the following.");
         System.out.println("\nBill without tip: $");
         double bill = keyboard.nextDouble();
@@ -28,6 +29,7 @@ public class split_the_bill{
         System.out.println("Thank you! Here are your costs:");
         System.out.println("Bill before tip: " + money.format( bill));
         System.out.println("Bill after tip: " + money.format(bill_total));
+        
         System.out.println("Tip per person: " + money.format(tip_per_person));
         System.out.println("Cost per person without tip: " + money.format(cost_per_person));
         System.out.println("Total cost per person (includes tip):  " + money.format(cost_per_person + tip_per_person));

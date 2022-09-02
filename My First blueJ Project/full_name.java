@@ -1,4 +1,4 @@
-
+ 
 /**
  * Adeline Tse
  *
@@ -13,19 +13,14 @@ public class full_name
     {
         Scanner keyboard = new Scanner(System.in);
         System.out.print("What is your full name?");
-        System.out.print("Enter 2 words: ");
+        System.out.println("Enter 3 words: ");
         
-        keyboard.nextLine();
+        String name = keyboard.nextLine();
+        String first_name = name.substring ( name.indexOf(" ") 
         
-        String first_name = keyboard.nextLine();
-        first_name = keyboard.next();
-        keyboard.next();
-        String middle_name = keyboard.next();
-        keyboard.next();
-        String last_name = keyboard.next();
         
         char middle_intial = middle_name.charAt(0);
         
-        System.out.printf(first_name+ middle_intial + "/n" );
+        System.out.print(first_name+ middle_intial + "/n" );
     }
 }
