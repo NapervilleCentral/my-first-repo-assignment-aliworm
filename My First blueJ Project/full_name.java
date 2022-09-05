@@ -1,9 +1,9 @@
  
 /**
  * Adeline Tse
- *
- * @author (your name)
- * @version (a version number or a date)
+ * 9/5/22
+ * Program name: Full name
+ * Ask user for their full name, and then index and format it
  */
 import java.util.Scanner;
 import java.text.*;
@@ -14,13 +14,21 @@ public class full_name
         Scanner keyboard = new Scanner(System.in);
         System.out.print("What is your full name?");
         System.out.println("Enter 3 words: ");
-        
+
         String name = keyboard.nextLine();
-        String first_name = name.substring ( name.indexOf(" ") 
+        int endOfFirstname = name.indexOf(" ");
+        String firstname = name.substring(0, endOfFirstname);
+        
+        //Indexing the middle name and last name and assigning them variables 
+        int endOfMiddlename = name.indexOf(" ", (endOfFirstname + 1));
+        String middlename = name.substring((endOfFirstname + 1), endOfMiddlename);
+        String lastname = name.substring((endOfMiddlename + 1), name.length());
         
         
-        char middle_intial = middle_name.charAt(0);
+        //Index middle initial to be the only character
+        String middleInitial = "" + middlename.charAt(0);
         
-        System.out.print(first_name+ middle_intial + "/n" );
+        //Output name
+        System.out.print(firstname+ " " + middleInitial.toUpperCase() + "." + "\n" + lastname);
     }
 }

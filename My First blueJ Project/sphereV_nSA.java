@@ -4,8 +4,7 @@
  * 8/31
  * Program name: Sphere Volume and Surface Area
  * Find the surface area and volume of a sphere using radius from user input
- * 
- */
+*/
 import java.util.Scanner;
 import java.text.DecimalFormat;                                                                        
 public class sphereV_nSA
